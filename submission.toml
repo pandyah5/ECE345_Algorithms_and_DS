@@ -1,0 +1,22 @@
+# Please provide running instructions with examples
+instructions = """
+There are three files by the name of 'sort1.py', 'sort2.py' and 'sort3.py'. To run them you need to have Python 3 installed and the csv files in the same folder as the code.
+
+Then open the (linux) terminal and use the following format:
+./filename.py csv_filename.csv
+
+For example:
+./sort1.py a1.small.csv
+
+This will sort the csv rows based on the key and print them in the console in ascending order.
+"""
+
+[[student]]
+name = "Hetav Pandya"
+utor = "pandyah5"
+nmbr = "1005729124"
+
+[[student]]
+name = "Chirag Sethi"
+utor = "Student 2's utorid"
+nmbr = "1006219263"

@@ -37,10 +37,8 @@ if __name__ == "__main__":
     array = []
     with open(filename, newline='') as f:
         reader = csv.reader(f)
-        index = 0
         for row in reader:
             array.append(row)
-            index += 1
-    result = merge_sort(array[:10])
+    result = merge_sort(array)
     for elem in result:
         print(*elem, sep=',')

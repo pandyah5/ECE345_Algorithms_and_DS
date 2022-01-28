@@ -24,8 +24,6 @@ if __name__ == "__main__":
     array = []
     with open(filename, newline='') as f:
         reader = csv.reader(f)
-        index = 0
         for row in reader:
             array.append(row)
-            index += 1
-    insertion_sort(array[:10])
+    insertion_sort(array)
