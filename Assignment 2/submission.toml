@@ -1,0 +1,24 @@
+# Please provide running instructions with examples
+instructions = """
+
+To run properly the passwords.txt file should be in the same directory as the python file. The python file called checkpass.py requires Python 3 to run.
+
+To run a custom file please open the (linux) terminal and use the following format:
+
+./checkpass.py filename.txt MyCustomPassword1234
+
+For example:
+./checkpass.py passwords.txt babloo1234
+
+This will create a hash table with the passwords mentioned in passwords.txt and check if the custom password is valid and does not exist in teh hashtable. If this condition satisfies then we print VALID else INVALID.
+"""
+
+[[student]]
+name = "Hetav Pandya"
+utor = "pandyah5"
+nmbr = "1005729124"
+
+[[student]]
+name = "Chirag Sethi"
+utor = "sethichi"
+nmbr = "1006219263"
