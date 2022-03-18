@@ -1,0 +1,25 @@
+# Please provide running instructions with examples
+instructions = """
+
+To run properly the graph files should be in the same directory as the python file. The python file called influence.py requires Python 3 to run.
+
+To run a custom file please open the (linux) terminal and use the following format:
+
+./influence.py filename time_threshold
+
+For example:
+./influence.py facebook_small.txt 3
+
+This will create the graph and find the top 1 and top 2 influencers. Note that we have also attempted the bonus part for this lab.
+
+"""
+
+[[student]]
+name = "Hetav Pandya"
+utor = "pandyah5"
+nmbr = "1005729124"
+
+[[student]]
+name = "Chirag Sethi"
+utor = "sethichi"
+nmbr = "1006219263"
